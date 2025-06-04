@@ -1,4 +1,3 @@
-# featured-events
 # Featured Events
 A responsive static webpage showcasing a list of featured events.
 ## Technologies Used
