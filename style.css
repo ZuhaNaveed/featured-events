@@ -1,0 +1,33 @@
+
+
+#searchInput {
+  max-width: 400px;
+  padding: 10px;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  color: white; 
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #a855f7, #3b82f6);
+  border: none;
+}
+
+.btn-outline-gradient {
+  border: 2px solid #a855f7;
+  color: #7c3aed;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
